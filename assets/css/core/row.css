@@ -1,0 +1,9 @@
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col{
+    padding: 0 10px;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.logo{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.header{
+    padding: 25px 0;
+}
+
+.logo--header{
+    width: 150px;
+}
+
+.nav--header{
+    margin: 20px 0;
+}
