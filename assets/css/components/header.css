@@ -1,5 +1,6 @@
 .logo{
     cursor: pointer;
+    display: block;
 }
 
 .logo img{
@@ -8,6 +9,7 @@
 
 .header{
     padding: 25px 0;
+    background: #fff;
 }
 
 .logo--header{
@@ -15,5 +17,5 @@
 }
 
 .nav--header{
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
 }

@@ -2,12 +2,14 @@
 @import "components/nav.css";
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/icons.css";
 
 *{
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
     box-sizing: border-box;
+    color: #292929;
 }
 
 @font-face {
@@ -19,4 +21,61 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.content .section:first-of-type{
+    padding-top: 0;
+}
+
+.section{
+    margin: 25px 0;
+    padding: 50px 0;
+}
+.section--dark{
+    background: #292929;
+}
+.section--dark *{
+    color: #fff;
+}
+
+.image-cover{
+    margin: 30px auto;
+    overflow: hidden;
+}
+.image{
+    transition: all .25s ease;
+    width: 100%;
+    filter: grayscale(100%) sepia(50%);
+}
+.image:hover{
+    transform: scale(1.1);
+    filter: none;
+}
+
+.wrap--reviews{
+    padding: 50px 0;
+}
+.wrap--reviews .col:first-of-type{
+    border-right: #7e7e7e solid 1px;
+}
+
+.wrap--quote{ position: relative; margin: 0 30px; }
+.wrap--quote::before,
+.wrap--quote::after{
+    content: "\0022";
+    font-size: 50px;
+    position: absolute;
+}
+.wrap--quote::before{ top: 0; left: 0; }
+.wrap--quote::after{ right: 0; bottom: -25px; }
+
+.booking_steps__item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.booking_steps__item p{
+    margin: 0;
+    margin-left: 20px;
 }
