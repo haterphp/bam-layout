@@ -1,0 +1,28 @@
+.form__group{
+    margin-bottom: 15px;
+}
+
+.form__group label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__control{
+    outline: none;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.form__group--dark label{
+    color: #fff;
+}
+
+.form__group--dark .form__control{
+    background: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.form__group--dark .form__control::placeholder{
+    color: #fff;
+}

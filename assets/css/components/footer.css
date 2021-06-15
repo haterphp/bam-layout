@@ -5,10 +5,9 @@
 
 .footer--dark{
     background: #292929;
-    color: #fff;
 }
 
-.footer--dark .nav__link{
+.footer--dark *{
     color: #fff;
 }
 
@@ -30,4 +29,10 @@
     padding-top: 20px;
     margin-top: 20px;
     border-top: solid 1px #404040;
+}
+
+@media all and (max-width: 1024px) {
+    .footer .col{
+        margin: 10px 0;
+    }
 }

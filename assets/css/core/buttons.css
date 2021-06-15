@@ -1,14 +1,27 @@
 .btn{
+    text-decoration: none;
     padding: 15px 40px;
     font-size: 18px;
     background: transparent;
     border: 1px solid transparent;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     position: relative;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    z-index: 1;
 }
-.btn:hover:before {
+.btn::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    content: '';
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.btn:hover::before {
     left: 0;
     right: auto;
     width: 100%;
@@ -27,16 +40,18 @@
     color: #fff !important;
     background-color: transparent;
 }
-.btn--primary:before {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 0;
-    z-index: -1;
-    content: '';
+.btn--primary::before {
     color: #ffffff !important;
     background: #404040;
-    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.btn--light{
+    background: transparent;
+    border: solid 1px #fff;
+}
+.btn--light:hover {
+    color: #404040 !important;
+}
+.btn--light::before{
+    background: #fff;
 }
