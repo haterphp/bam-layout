@@ -6,7 +6,7 @@ h5, .h5{ font-size: 20px; }
 p, i{ font-size: 18px; }
 
 h1, h2, h3, h4, h5, p{ margin-bottom: 15px; line-height: 1.5em; }
-
+small{ margin-bottom: 7px }
 .text-center{text-align: center;}
 .text-left{text-align: left;}
 .text-right{text-align: right;}
@@ -29,4 +29,6 @@ h1, h2, h3, h4, h5, p{ margin-bottom: 15px; line-height: 1.5em; }
     h2, .h2{ font-size: 30px; }
     h3, .h3{ font-size: 25px; }
     h4, .h4{ font-size: 20px; }
+    h1, h2, h3, h4, h5, p{ margin-bottom: 7px; line-height: 1.3em; }
+    small{ margin-bottom: 5px;}
 }
