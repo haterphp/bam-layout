@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+.col-sticky{
+    position: sticky;
+    top: 25px;
+}
+
 @media all and (max-width: 1024px) {
     .row{
         flex-direction: column;

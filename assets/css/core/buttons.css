@@ -7,7 +7,7 @@
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    transition: color 0.4s cubic-bezier(0.42, 0, 0.58, 1);
     z-index: 1;
 }
 .btn::before {
@@ -25,6 +25,11 @@
     left: 0;
     right: auto;
     width: 100%;
+}
+
+.btn-link{
+    border: none !important;
+    background: transparent !important;
 }
 
 .btn--large{
@@ -55,3 +60,21 @@
 .btn--light::before{
     background: #fff;
 }
+
+.btn--danger{
+    background: transparent;
+    border: solid 1px #cf5757;
+    color: #cf5757;
+}
+.btn--danger:hover {
+    color: #fff !important;
+}
+.btn--danger::before{
+    background: #cf5757;
+}
+
+.btn-link.btn--danger{
+    color: #cf5757 !important;
+}
+
+
