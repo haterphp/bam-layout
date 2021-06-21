@@ -63,11 +63,6 @@
     }
 }
 
-@font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular.ttf");
-}
-
 .page{
     min-height: 100vh;
     display: flex;

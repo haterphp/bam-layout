@@ -2,23 +2,14 @@
     cursor: pointer;
     display: block;
 }
-
-.logo img{
-    width: 100%;
-}
+.logo img{ width: 100%; }
 
 .header{
     padding: 25px 0;
     background: #fff;
 }
-
-.logo--header{
-    width: 150px;
-}
-
-.nav--header{
-    margin: 20px 0 10px 0;
-}
+.logo--header{ width: 150px; }
+.nav--header{ margin: 20px 0 10px 0; }
 
 #menu-toggle{
     position: absolute;
@@ -38,14 +29,8 @@ label[for=menu-toggle]{
     margin-top: 15px;
 }
 
-label[for=menu-toggle]:hover {
-    background: #f6f6f6;
-}
-
-#menu-toggle:checked ~ .nav--header{
-    max-height: 250px;
-}
-
+label[for=menu-toggle]:hover { background: #f6f6f6; }
+#menu-toggle:checked ~ .nav--header{ max-height: 250px; }
 @media all and (max-width: 600px) {
     label[for=menu-toggle] {
         display: inline-block;

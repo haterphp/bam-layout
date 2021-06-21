@@ -32,3 +32,8 @@ small{ margin-bottom: 7px }
     h1, h2, h3, h4, h5, p{ margin-bottom: 7px; line-height: 1.3em; }
     small{ margin-bottom: 5px;}
 }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/Montserrat-Regular.ttf");
+}

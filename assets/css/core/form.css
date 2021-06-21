@@ -1,7 +1,4 @@
-.form__group{
-    margin-bottom: 15px;
-}
-
+.form__group{ margin-bottom: 15px; }
 .form__group > label:first-of-type{
     display: block;
     margin-bottom: 10px;
@@ -13,18 +10,12 @@
     width: 100%;
     resize: none;
 }
-
-.form__group--dark > label:first-of-type{
-    color: #fff;
-}
+.form__group--dark > label:first-of-type,
+.form__group--dark .form__control::placeholder{ color: #fff; }
 
 .form__group--dark .form__control{
     background: transparent;
     border: solid 1px #fff;
-    color: #fff;
-}
-
-.form__group--dark .form__control::placeholder{
     color: #fff;
 }
 
